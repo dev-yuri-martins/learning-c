@@ -1,7 +1,8 @@
 #include <stdio.h> 
 
 int main() {
-    for(i = 0; i <= 98; i + 2) {
-        printf("%d", 1);
+    for(int i = 1; i <= 100; i ++) {
+        if (i % 2 == 0)
+        printf("%d\n", i);
     } 
 }
